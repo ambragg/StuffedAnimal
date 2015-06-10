@@ -18,6 +18,7 @@
 		F3493E591B272C4700AF26B7 /* iPhoneMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3493E571B272C4700AF26B7 /* iPhoneMain.storyboard */; };
 		F3493E5C1B273B8300AF26B7 /* ControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3493E5B1B273B8300AF26B7 /* ControllerViewController.swift */; };
 		F3493E5E1B273C6E00AF26B7 /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3493E5D1B273C6E00AF26B7 /* Connector.swift */; };
+		F3493E621B2873AD00AF26B7 /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3493E611B2873AD00AF26B7 /* Avatar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		F3493E581B272C4700AF26B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/iPhoneMain.storyboard; sourceTree = "<group>"; };
 		F3493E5B1B273B8300AF26B7 /* ControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerViewController.swift; sourceTree = "<group>"; };
 		F3493E5D1B273C6E00AF26B7 /* Connector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
+		F3493E611B2873AD00AF26B7 /* Avatar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			children = (
 				F3493E5F1B273C8700AF26B7 /* Random */,
 				F3493E391B2729C500AF26B7 /* GameViewController.swift */,
+				F3493E601B28737200AF26B7 /* Controller */,
 				F3493E3B1B2729C500AF26B7 /* iPadMain.storyboard */,
 				F3493E5A1B273B3200AF26B7 /* Game */,
 				F3493E351B2729C500AF26B7 /* GameScene.sks */,
@@ -141,6 +144,14 @@
 				F3493E5D1B273C6E00AF26B7 /* Connector.swift */,
 			);
 			name = Random;
+			sourceTree = "<group>";
+		};
+		F3493E601B28737200AF26B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F3493E611B2873AD00AF26B7 /* Avatar.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3493E621B2873AD00AF26B7 /* Avatar.swift in Sources */,
 				F3493E5C1B273B8300AF26B7 /* ControllerViewController.swift in Sources */,
 				F3493E381B2729C500AF26B7 /* GameScene.swift in Sources */,
 				F3493E3A1B2729C500AF26B7 /* GameViewController.swift in Sources */,

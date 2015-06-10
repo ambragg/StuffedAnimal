@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>423F5C25-B5AF-4E79-B011-CD73067AD69B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>StuffedAnimalMortalKombat</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EF227ADE50E5ED2990820435264B9F348D641167</key>
+		<string>https://github.com/ambragg/StuffedAnimal.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>StuffedAnimalMortalKombat.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EF227ADE50E5ED2990820435264B9F348D641167</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ambragg/StuffedAnimal.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EF227ADE50E5ED2990820435264B9F348D641167</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EF227ADE50E5ED2990820435264B9F348D641167</string>
+			<key>IDESourceControlWCCName</key>
+			<string>StuffedAnimal</string>
+		</dict>
+	</array>
+</dict>
+</plist>
