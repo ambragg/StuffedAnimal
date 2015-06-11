@@ -13,6 +13,8 @@ class ControllerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        Connector.sharedConnector().controller = self
+        
         Connector.sharedConnector().startAdvertising()
 
         // Do any additional setup after loading the view.

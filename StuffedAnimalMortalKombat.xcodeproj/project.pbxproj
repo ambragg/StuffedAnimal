@@ -19,6 +19,9 @@
 		F3493E5C1B273B8300AF26B7 /* ControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3493E5B1B273B8300AF26B7 /* ControllerViewController.swift */; };
 		F3493E5E1B273C6E00AF26B7 /* Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3493E5D1B273C6E00AF26B7 /* Connector.swift */; };
 		F3493E621B2873AD00AF26B7 /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3493E611B2873AD00AF26B7 /* Avatar.swift */; };
+		F3493E661B29C33D00AF26B7 /* MoveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3493E651B29C33D00AF26B7 /* MoveButton.swift */; };
+		F3493E681B29D14000AF26B7 /* PawButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3493E671B29D14000AF26B7 /* PawButton.swift */; };
+		F3493E6A1B29EC4C00AF26B7 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3493E691B29EC4C00AF26B7 /* Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		F3493E5B1B273B8300AF26B7 /* ControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerViewController.swift; sourceTree = "<group>"; };
 		F3493E5D1B273C6E00AF26B7 /* Connector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connector.swift; sourceTree = "<group>"; };
 		F3493E611B2873AD00AF26B7 /* Avatar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Avatar.swift; sourceTree = "<group>"; };
+		F3493E651B29C33D00AF26B7 /* MoveButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveButton.swift; sourceTree = "<group>"; };
+		F3493E671B29D14000AF26B7 /* PawButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PawButton.swift; sourceTree = "<group>"; };
+		F3493E691B29EC4C00AF26B7 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +102,10 @@
 				F3493E5A1B273B3200AF26B7 /* Game */,
 				F3493E351B2729C500AF26B7 /* GameScene.sks */,
 				F3493E571B272C4700AF26B7 /* iPhoneMain.storyboard */,
+				F3493E671B29D14000AF26B7 /* PawButton.swift */,
 				F3493E5B1B273B8300AF26B7 /* ControllerViewController.swift */,
 				F3493E371B2729C500AF26B7 /* GameScene.swift */,
+				F3493E691B29EC4C00AF26B7 /* Functions.swift */,
 				F3493E311B2729C500AF26B7 /* Supporting Files */,
 			);
 			path = StuffedAnimalMortalKombat;
@@ -150,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				F3493E611B2873AD00AF26B7 /* Avatar.swift */,
+				F3493E651B29C33D00AF26B7 /* MoveButton.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -257,10 +266,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3493E621B2873AD00AF26B7 /* Avatar.swift in Sources */,
+				F3493E661B29C33D00AF26B7 /* MoveButton.swift in Sources */,
+				F3493E6A1B29EC4C00AF26B7 /* Functions.swift in Sources */,
 				F3493E5C1B273B8300AF26B7 /* ControllerViewController.swift in Sources */,
 				F3493E381B2729C500AF26B7 /* GameScene.swift in Sources */,
 				F3493E3A1B2729C500AF26B7 /* GameViewController.swift in Sources */,
 				F3493E5E1B273C6E00AF26B7 /* Connector.swift in Sources */,
+				F3493E681B29D14000AF26B7 /* PawButton.swift in Sources */,
 				F3493E341B2729C500AF26B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -123,6 +123,5 @@ import UIKit
 
 }
 
-func DegreesToRadians (value: Double) -> Double {
-    return value * M_PI / 180.0
-}
+
+

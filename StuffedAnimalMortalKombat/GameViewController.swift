@@ -30,6 +30,7 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        Connector.sharedConnector().gameBoard = self
         Connector.sharedConnector().startBrowsing()
 
         if let scene = GameScene.unarchiveFromFile("GameScene") as? GameScene {
@@ -48,6 +49,27 @@ class GameViewController: UIViewController {
         }
     }
 
+    
+    func playerJoined() {
+        // add stats area
+        
+        // add player sprite node
+    }
+    
+    
+    func playerLeft() {
+        // remove stats area & update stats layout if stats area was not at end
+        
+        //remove player sprite node (possibly by exploding them)
+        
+    }
+    
+    // player movement functions
+    
+    // player attack functions
+    
+    
+    
     override func shouldAutorotate() -> Bool {
         return true
     }
