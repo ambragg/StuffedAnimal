@@ -22,6 +22,7 @@
 		F3493E661B29C33D00AF26B7 /* MoveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3493E651B29C33D00AF26B7 /* MoveButton.swift */; };
 		F3493E681B29D14000AF26B7 /* PawButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3493E671B29D14000AF26B7 /* PawButton.swift */; };
 		F3493E6A1B29EC4C00AF26B7 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3493E691B29EC4C00AF26B7 /* Functions.swift */; };
+		F3493E6E1B2A2F9400AF26B7 /* PlayerStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3493E6D1B2A2F9400AF26B7 /* PlayerStats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		F3493E651B29C33D00AF26B7 /* MoveButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveButton.swift; sourceTree = "<group>"; };
 		F3493E671B29D14000AF26B7 /* PawButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PawButton.swift; sourceTree = "<group>"; };
 		F3493E691B29EC4C00AF26B7 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		F3493E6D1B2A2F9400AF26B7 /* PlayerStats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerStats.swift; path = ../PlayerStats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				F3493E391B2729C500AF26B7 /* GameViewController.swift */,
 				F3493E601B28737200AF26B7 /* Controller */,
 				F3493E3B1B2729C500AF26B7 /* iPadMain.storyboard */,
+				F3493E6D1B2A2F9400AF26B7 /* PlayerStats.swift */,
 				F3493E5A1B273B3200AF26B7 /* Game */,
 				F3493E351B2729C500AF26B7 /* GameScene.sks */,
 				F3493E571B272C4700AF26B7 /* iPhoneMain.storyboard */,
@@ -269,6 +272,7 @@
 				F3493E661B29C33D00AF26B7 /* MoveButton.swift in Sources */,
 				F3493E6A1B29EC4C00AF26B7 /* Functions.swift in Sources */,
 				F3493E5C1B273B8300AF26B7 /* ControllerViewController.swift in Sources */,
+				F3493E6E1B2A2F9400AF26B7 /* PlayerStats.swift in Sources */,
 				F3493E381B2729C500AF26B7 /* GameScene.swift in Sources */,
 				F3493E3A1B2729C500AF26B7 /* GameViewController.swift in Sources */,
 				F3493E5E1B273C6E00AF26B7 /* Connector.swift in Sources */,

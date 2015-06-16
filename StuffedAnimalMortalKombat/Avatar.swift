@@ -37,7 +37,6 @@ import UIKit
         
         // left bar
         lightHealth.set()
-        CGContextSetLineWidth(context, lineWidth)
         CGContextStrokeEllipseInRect(context, barRect)
         
         // right bar
@@ -82,16 +81,37 @@ import UIKit
         let x = (rect.width / 2) + (rect.width) * cos(angle)
         let y = (rect.height / 2) + (rect.height) * sin(angle)
         
-        CGContextMoveToPoint(context, 0, healthY);
+        CGContextMoveToPoint(context, x, y);
         CGContextAddLineToPoint(context, rect.width / 2, rect.height / 2)
         CGContextAddLineToPoint(context, 0, rect.height)
         CGContextFillPath(context)
         
         
-        addDotAtDegreesWithColorAndContext(degrees, color: UIColor.cyanColor(), context: context)
         addDotAtDegreesWithColorAndContext(135, color: healthColor, context: context)
+        addDotAtDegreesWithColorAndContext(degrees, color: healthColor, context: context)
         
         // add current energy
+       
+        
+        energyColor.set()
+        
+        let oppoDegrees = Double(45 - ((energyPoints / 100) * 90))
+        
+        let oppoAngle = CGFloat(DegreesToRadians(oppoDegrees))
+        
+        
+        let newX = (rect.width / 2) + (rect.width) * cos(oppoAngle)
+        let newY = (rect.height / 2) + (rect.height) * sin(oppoAngle)
+        
+        
+        CGContextMoveToPoint(context, newX, newY)
+        CGContextAddLineToPoint(context, rect.width / 2, rect.height / 2)
+        CGContextAddLineToPoint(context, rect.width, rect.height)
+        CGContextFillPath(context)
+        
+        addDotAtDegreesWithColorAndContext(oppoDegrees, color: energyColor, context: context)
+        addDotAtDegreesWithColorAndContext(45, color: energyColor, context: context)
+        
         
         CGContextSetBlendMode(context, kCGBlendModeNormal)
         

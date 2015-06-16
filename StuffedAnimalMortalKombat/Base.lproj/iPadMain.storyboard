@@ -31,7 +31,7 @@
                         <viewControllerLayoutGuide type="top" id="VeQ-oZ-X02"/>
                         <viewControllerLayoutGuide type="bottom" id="jj1-bm-8Wy"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Hfz-Fl-erE">
+                    <view key="view" contentMode="scaleToFill" id="Hfz-Fl-erE" customClass="PlayerStats" customModule="StuffedAnimalMortalKombat" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
